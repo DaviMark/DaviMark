@@ -2,7 +2,9 @@
 
 <img width="12" />
 
-<img class="profile-image" src="https://media.licdn.com/dms/image/D4D03AQF7fEHOCzR-uQ/profile-displayphoto-shrink_800_800/0/1708943618234?e=1727913600&v=beta&t=0DLnsP-HqXOtDGgnOsiFgRyQ6azHCtkeL7aXfBLXnn0" alt="Profile Image"/>
+<img src="https://media.licdn.com/dms/image/D4D03AQF7fEHOCzR-uQ/profile-displayphoto-shrink_800_800/0/1708943618234?e=1727913600&v=beta&t=0DLnsP-HqXOtDGgnOsiFgRyQ6azHCtkeL7aXfBLXnn0" 
+     alt="Profile Image" 
+     style="float: right; border-radius: 50%; height: 150px;" />
 
 <img width="12" />
 
@@ -33,10 +35,4 @@
 </div>
 
 
-<style>
-    .profile-image {
-        float: right;
-        border-radius: 50%;
-        height: 150px;
-    }
-</style>
+

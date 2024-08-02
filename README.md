@@ -2,12 +2,6 @@
 
 <img width="12" />
 
-<img src="https://media.licdn.com/dms/image/D4D03AQF7fEHOCzR-uQ/profile-displayphoto-shrink_800_800/0/1708943618234?e=1727913600&v=beta&t=0DLnsP-HqXOtDGgnOsiFgRyQ6azHCtkeL7aXfBLXnn0" 
-         alt="Profile Image" 
-         style="float: right; border-radius: 50%; height: 150px; width: 150px; object-fit: cover;" />
-
-<img width="12" />
-
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />

@@ -33,7 +33,7 @@ Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 
 ### Meus Certificados 🎓
 Confira meus certificados na nuvem:
-- [Certificados no Google Drive](https://drive.google.com/drive/folders/1fLY0yl0pzIIYtUNLADlIp9f_46h20m1b?usp=sharing)
+- <a href="https://drive.google.com/drive/folders/1fLY0yl0pzIIYtUNLADlIp9f_46h20m1b?usp=sharing" target="_blank">Certificados no Google Drive</a>
 ---
 
 ### Estatísticas do GitHub ⚡

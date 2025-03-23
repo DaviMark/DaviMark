@@ -31,6 +31,9 @@ Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 - [**Projeto 3** - Dashboard em Tempo Real](https://github.com/DaviMark/projeto3)  
   Um dashboard que integra dados em tempo real, exibindo informações relevantes em gráficos interativos com filtragem e análise de grandes volumes de dados.
 
+### Meus Certificados 🎓
+Confira meus certificados na nuvem:
+- [Certificados no Google Drive]([https://drive.google.com/drive/folders/seu_link_aqui](https://drive.google.com/drive/folders/1fLY0yl0pzIIYtUNLADlIp9f_46h20m1b?usp=sharing))
 ---
 
 ### Estatísticas do GitHub ⚡

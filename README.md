@@ -8,8 +8,6 @@
 
 👩‍💻 Atualmente, trabalho como **Especialista em Análise de Dados & Desenvolvedor Web**.
 
-### Eu já trabalhei com... 🔧
-
 **Tecnologias e Ferramentas**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-%23008080.svg?style=for-the-badge&logo=powerbi&logoColor=white)
@@ -20,12 +18,25 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+### Projetos 🚀
+
+Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
+
+- [**Projeto 1** - Power BI Dashboard](https://github.com/DaviMark/projeto1)  
+  Um painel interativo no Power BI, exibindo análise de dados de vendas com gráficos dinâmicos e insights em tempo real.
+
+- [**Projeto 2** - Aplicação Web com Python](https://github.com/DaviMark/projeto2)  
+  Um sistema de automação que utiliza Python para coletar e processar dados de fontes externas, além de um front-end interativo para visualização.
+
+- [**Projeto 3** - Dashboard em Tempo Real](https://github.com/DaviMark/projeto3)  
+  Um dashboard que integra dados em tempo real, exibindo informações relevantes em gráficos interativos com filtragem e análise de grandes volumes de dados.
+
+---
+
 ### Estatísticas do GitHub ⚡
-<div>
-<a href="https://github.com/DaviMark">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=davimarks&layout=compact&langs_count=7&theme=dracula"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=davimarks&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-</div>
+![DaviMark's Stats](https://github-readme-stats.vercel.app/api?username=DaviMark&theme=tokyonight&show_icons=true&hide_border=true&count_private=false)
+
+![DaviMark's Streak](https://github-readme-streak-stats.herokuapp.com/?user=DaviMark&theme=tokyonight&hide_border=true)
 
 ### Entre em contato comigo! 📭
 <div>

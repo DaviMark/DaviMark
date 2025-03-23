@@ -4,8 +4,6 @@
 
 💻 Sou um Especialista em Análise de Dados e Desenvolvimento Web com mais de 6 anos de experiência, dedicado a transformar dados em insights estratégicos e criar soluções digitais impactantes. Ao longo da minha carreira, desenvolvi dashboards interativos no Power BI, automação em Python, além de aplicações web e mobile que simplificam processos e aprimoram a experiência do usuário.
 
-🎓 Estudo Análise de Dados, Desenvolvimento de Software e Desenvolvimento Web, com um enfoque em tecnologias inovadoras para otimizar resultados.
-
 👩‍💻 Atualmente, trabalho como **Especialista em Análise de Dados & Desenvolvedor Web**.
 
 **Tecnologias e Ferramentas**

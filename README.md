@@ -10,7 +10,7 @@
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-%23008080.svg?style=for-the-badge&logo=powerbi&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-%2321768C.svg?style=for-the-badge&logo=sql&logoColor=white)
-![DATABRICKS](https://img.shields.io/badge/DATABRICKS-%2321768C.svg?style=for-the-badge&logo=sql&logoColor=white)
+![DATABRICKS](https://img.shields.io/badge/DATABRICKS-%2321768C.svg?style=for-the-badge&logo=databricks&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-%2315B4C2.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-%2327765C.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)

@@ -12,10 +12,10 @@
 ![SQL](https://img.shields.io/badge/SQL-%2321768C.svg?style=for-the-badge&logo=sql&logoColor=white)
 ![DATABRICKS](https://img.shields.io/badge/DATABRICKS-%2321768C.svg?style=for-the-badge&logo=databricks&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-%2315B4C2.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-%2327765C.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![SQLServer](https://img.shields.io/badge/SQL%20Server-%2327765C.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Projetos 🚀
 

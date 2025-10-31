@@ -18,7 +18,7 @@ Desenvolvo soluções que otimizam fluxos de dados, aumentam a confiabilidade an
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-### Projetos 🚀
+### Projetos
 
 Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 
@@ -33,7 +33,7 @@ Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 
 ### Meus Certificados 🎓
 Confira meus certificados na nuvem:
-- <a href="https://drive.google.com/drive/folders/1fLY0yl0pzIIYtUNLADlIp9f_46h20m1b?usp=sharing" target="_blank">Certificados no Google Drive</a>
+- <a href="https://github.com/DaviMark/Formacao-Certificados" target="_blank">Certificados no Google Drive</a>
 ---
 
 ### Estatísticas do GitHub ⚡

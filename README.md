@@ -2,9 +2,10 @@
 
 ### Sobre mim
 
-💻 Sou um Especialista em Análise de Dados e Desenvolvimento Web com mais de 6 anos de experiência, dedicado a transformar dados em insights estratégicos e criar soluções digitais impactantes. Ao longo da minha carreira, desenvolvi dashboards interativos no Power BI, automação em Python, além de aplicações web e mobile que simplificam processos e aprimoram a experiência do usuário.
+Especialista em Análise de Dados com 6 anos de experiência transformando informações em decisões estratégicas e resultados. Atuo na concepção de arquiteturas de dados escaláveis e na criação de dashboards executivos que elevama eficiência operacional e a performance de áreas como finanças, operações,marketing entre outros. Domínio avançado em SQL, Python e soluções em cloud (BigQuery, Databricks, Oracle, SQL Server, MySQL e SAP HANA), com foco em otimização de pipelines, governança, segurança e automação de processos.
+Desenvolvo soluções que otimizam fluxos de dados, aumentam a confiabilidade analítica e impulsionam decisões mais assertivas em todos os níveis da organização. Minha experiência no desenvolvimento de plataformas Web e Mobile integradas a dados combina profundidade técnica e visão estratégica, promovendo eficiência, escalabilidade e impactomensurável no negócio.
 
-👩‍💻 Atualmente, trabalho como **Consultor Power BI Sênior ESS - UOL**.
+👩‍💻 Atualmente, trabalho como **Analista de Dados Sênior ESS - UOL (Universo Online)**.
 
 **Tecnologias e Ferramentas**
 
@@ -21,14 +22,14 @@
 
 Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 
-- [**Projeto 1** - Power BI Dashboard](https://github.com/DaviMark/projeto1)  
-  Um painel interativo no Power BI, exibindo análise de dados de vendas com gráficos dinâmicos e insights em tempo real.
+- [**DRE Financeiro** - Power BI Dashboard]([https://github.com/DaviMark/projeto1](https://app.powerbi.com/view?r=eyJrIjoiOTQ5Y2JkNzAtYjNjOC00ODMyLTk2NzYtYTg3NzVhMTQyMmFiIiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9))  
+  Painel de DRE criado para transformar dados contábeis em insights visuais. Apresenta o resultado operacional da empresa em tempo real, destacando margens, despesas e lucros de forma intuitiva e comparativa entre períodos.
 
-- [**Projeto 2** - Aplicação Web com Python](https://github.com/DaviMark/projeto2)  
-  Um sistema de automação que utiliza Python para coletar e processar dados de fontes externas, além de um front-end interativo para visualização.
+- [**Santander - Análise de Satisfação** - Ciência de Dados]([https://github.com/DaviMark/projeto2](https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb))  
+  Este projeto tem como objetivo prever o nível de satisfação dos clientes do Banco Santander, utilizando técnicas de aprendizado de máquina aplicadas ao conjunto de dados disponibilizado do Kaggle: “Santander Customer Satisfaction”. A análise inclui as etapas de exploração dos dados (EDA), tratamento e seleção de variáveis, além da construção e avaliação de modelos preditivos para identificar padrões que indiquem se um cliente está satisfeito ou não com os serviços do banco. O projeto demonstra a aplicação prática de modelos supervisionados de classificação, visando apoiar estratégias de retenção e melhoria da experiência.
 
-- [**Projeto 3** - Dashboard em Tempo Real](https://github.com/DaviMark/projeto3)  
-  Um dashboard que integra dados em tempo real, exibindo informações relevantes em gráficos interativos com filtragem e análise de grandes volumes de dados.
+- [**Consultas SQL** - Engenharia de Dados]([https://github.com/DaviMark/projeto3](https://github.com/DaviMark/Consultas_SQL))  
+  Aqui você encontrará uma coleção de queries otimizadas, voltadas para análises de dados, automação de relatórios e manipulação eficiente de bases relacionais, aplicadas a diferentes contextos de negócio.
 
 ### Meus Certificados 🎓
 Confira meus certificados na nuvem:

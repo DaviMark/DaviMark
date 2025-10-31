@@ -22,13 +22,13 @@ Desenvolvo soluções que otimizam fluxos de dados, aumentam a confiabilidade an
 
 Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 
-- [**DRE Financeiro** - Power BI Dashboard]([https://github.com/DaviMark/projeto1](https://app.powerbi.com/view?r=eyJrIjoiOTQ5Y2JkNzAtYjNjOC00ODMyLTk2NzYtYTg3NzVhMTQyMmFiIiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9))  
+- [**DRE Financeiro** - Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTQ5Y2JkNzAtYjNjOC00ODMyLTk2NzYtYTg3NzVhMTQyMmFiIiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9)  
   Painel de DRE criado para transformar dados contábeis em insights visuais. Apresenta o resultado operacional da empresa em tempo real, destacando margens, despesas e lucros de forma intuitiva e comparativa entre períodos.
 
-- [**Santander - Análise de Satisfação** - Ciência de Dados]([https://github.com/DaviMark/projeto2](https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb))  
+- [**Santander - Análise de Satisfação** - Ciência de Dados](https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb)  
   Este projeto tem como objetivo prever o nível de satisfação dos clientes do Banco Santander, utilizando técnicas de aprendizado de máquina aplicadas ao conjunto de dados disponibilizado do Kaggle: “Santander Customer Satisfaction”. A análise inclui as etapas de exploração dos dados (EDA), tratamento e seleção de variáveis, além da construção e avaliação de modelos preditivos para identificar padrões que indiquem se um cliente está satisfeito ou não com os serviços do banco. O projeto demonstra a aplicação prática de modelos supervisionados de classificação, visando apoiar estratégias de retenção e melhoria da experiência.
 
-- [**Consultas SQL** - Engenharia de Dados]([https://github.com/DaviMark/projeto3](https://github.com/DaviMark/Consultas_SQL))  
+- [**Consultas SQL** - Engenharia de Dados](https://github.com/DaviMark/Consultas_SQL)  
   Aqui você encontrará uma coleção de queries otimizadas, voltadas para análises de dados, automação de relatórios e manipulação eficiente de bases relacionais, aplicadas a diferentes contextos de negócio.
 
 ### Meus Certificados 🎓

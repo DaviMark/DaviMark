@@ -1,6 +1,6 @@
 # Olá, sou o Davi Marques 👋
 
-### Sobre mim
+## Sobre mim
 
 Engenheiro de dados e Desenvolvedor Power BI com 7 anos de experiência no desenho de arquiteturas de dados escaláveis e na aceleração da maturidade analítica em grandes organizações. Minha atuação une a robustez da engenharia (pipelines, automação e governança) à inteligência de negócio, transformando ecossistemas de dados complexos em motores de decisão estratégica.
 
@@ -32,11 +32,11 @@ Atualmente, trabalho como **Analytics Engineer ESS - UOL (Universo Online)**.
 
 ---
 
-### Projetos
+## Projetos
 
 Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 
-## Engenharia de Dados
+### Engenharia de Dados
 Projetos focados na construção de pipelines robustos, governança de dados e arquiteturas escaláveis (Lakehouse).
 
 **[Projeto Jira Databricks](https://github.com/DaviMark/projeto_jira_databricks)**
@@ -50,7 +50,7 @@ Projetos focados na construção de pipelines robustos, governança de dados e a
 
 ---
 
-## Analytics
+### Analytics
 Projetos focados na transformação de dados em interfaces intuitivas e na extração de insights estratégicos.
 
 **[UI Power Pack](https://visuals-powerbi.vercel.app/)**
@@ -64,13 +64,13 @@ Projetos focados na transformação de dados em interfaces intuitivas e na extra
 
 ---
 
-### Meus Certificados 🎓
+## Meus Certificados 🎓
 Confira meus certificados na nuvem:
 - <a href="https://github.com/DaviMark/Formacao-Certificados" target="_blank">Certificados</a>
 
 ---
 
-### Estatísticas do GitHub ⚡
+## Estatísticas do GitHub ⚡
 ![DaviMark's Stats](https://github-readme-stats.vercel.app/api?username=DaviMark&theme=tokyonight&show_icons=true&hide_border=true&count_private=false)
 
 ![DaviMark's Streak](https://github-readme-streak-stats.herokuapp.com/?user=DaviMark&theme=tokyonight&hide_border=true)

@@ -2,38 +2,72 @@
 
 ### Sobre mim
 
-Especialista em Análise de Dados com 6 anos de experiência transformando informações em decisões estratégicas e resultados. Atuo na concepção de arquiteturas de dados escaláveis e na criação de dashboards executivos que elevama eficiência operacional e a performance de áreas como finanças, operações,marketing entre outros. Domínio avançado em SQL, Python e soluções em cloud (BigQuery, Databricks, Oracle, SQL Server, MySQL e SAP HANA), com foco em otimização de pipelines, governança, segurança e automação de processos.
-Desenvolvo soluções que otimizam fluxos de dados, aumentam a confiabilidade analítica e impulsionam decisões mais assertivas em todos os níveis da organização. Minha experiência no desenvolvimento de plataformas Web e Mobile integradas a dados combina profundidade técnica e visão estratégica, promovendo eficiência, escalabilidade e impactomensurável no negócio.
+Engenheiro de dados e Desenvolvedor Power BI com 7 anos de experiência no desenho de arquiteturas de dados escaláveis e na aceleração da maturidade analítica em grandes organizações. Minha atuação une a robustez da engenharia (pipelines, automação e governança) à inteligência de negócio, transformando ecossistemas de dados complexos em motores de decisão estratégica.
 
-👩‍💻 Atualmente, trabalho como **Analista de Dados Sênior ESS - UOL (Universo Online)**.
+Atuo no desenho de arquiteturas de dados escaláveis e na criação de soluções de Business Intelligence que reduzem tempo de análise, aumentam a confiabilidade dos indicadores e fortalecem a cultura data-driven nas organizações.
+
+Tenho domínio em SQL, Python e Cloud (BigQuery, Databricks, Oracle, SQL Server, MySQL e SAP HANA), aplicando práticas de governança, automação e otimização de pipelines ETL/ELT para garantir dados consistentes, acessíveis e seguros.
+
+Entrego soluções que eliminam tarefas manuais, aceleram a tomada de decisão e ampliam a performance de áreas-chave como finanças, operações e marketing.
+
+Atualmente, trabalho como **Analytics Engineer ESS - UOL (Universo Online)**.
 
 **Tecnologias e Ferramentas**
 
-![Power BI](https://img.shields.io/badge/Power%20BI-%23008080.svg?style=for-the-badge&logo=powerbi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-%2321768C.svg?style=for-the-badge&logo=sql&logoColor=white)
-![DATABRICKS](https://img.shields.io/badge/DATABRICKS-%2321768C.svg?style=for-the-badge&logo=databricks&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-%2315B4C2.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![SQLServer](https://img.shields.io/badge/SQLServer-%2327765C.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power%20Query-%23D13348.svg?style=for-the-badge&logo=powerbi&logoColor=white)
+![Dataflows Gen2](https://img.shields.io/badge/Dataflows%20Gen2-%23612C61.svg?style=for-the-badge&logo=microsoft&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-%23008080.svg?style=for-the-badge&logo=powerbi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![GCP](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-%23FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![Spark](https://img.shields.io/badge/Apache%20Spark-%23E25A1C.svg?style=for-the-badge&logo=apache-spark&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI/CD-%23000000.svg?style=for-the-badge&logo=github-actions&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
 
 ### Projetos
 
 Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 
-- [**DRE Financeiro** - Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTQ5Y2JkNzAtYjNjOC00ODMyLTk2NzYtYTg3NzVhMTQyMmFiIiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9)  
-  Painel de DRE criado para transformar dados contábeis em insights visuais. Apresenta o resultado operacional da empresa em tempo real, destacando margens, despesas e lucros de forma intuitiva e comparativa entre períodos.
+## Engenharia de Dados
+Projetos focados na construção de pipelines robustos, governança de dados e arquiteturas escaláveis (Lakehouse).
 
-- [**Santander - Análise de Satisfação** - Ciência de Dados](https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb)  
-  Este projeto tem como objetivo prever o nível de satisfação dos clientes do Banco Santander, utilizando técnicas de aprendizado de máquina aplicadas ao conjunto de dados disponibilizado do Kaggle: “Santander Customer Satisfaction”. A análise inclui as etapas de exploração dos dados (EDA), tratamento e seleção de variáveis, além da construção e avaliação de modelos preditivos para identificar padrões que indiquem se um cliente está satisfeito ou não com os serviços do banco. O projeto demonstra a aplicação prática de modelos supervisionados de classificação, visando apoiar estratégias de retenção e melhoria da experiência.
+* **[Projeto Jira Databricks](https://github.com/DaviMark/projeto_jira_databricks)**
+* Pipeline end-to-end com PySpark no Databricks. Implementação de Delta Lake sob governança do Unity Catalog e modelagem Star Schema para alta performance analítica.
 
-- [**Consultas SQL** - Engenharia de Dados](https://github.com/DaviMark/Consultas_SQL)  
-  Aqui você encontrará uma coleção de queries otimizadas, voltadas para análises de dados, automação de relatórios e manipulação eficiente de bases relacionais, aplicadas a diferentes contextos de negócio.
+* **[Projeto GitHub Lakehouse](https://github.com/DaviMark/projeto_github_lakehouse)**
+* Implementação de arquitetura moderna de dados utilizando a metodologia de medalhões (Bronze, Silver e Gold) para processamento de dados via API REST.
+
+* **[Consultas SQL - Engenharia de Dados](https://github.com/DaviMark/Consultas_SQL)**
+* Repositório de queries otimizadas para automação de relatórios, manipulação de bases relacionais e suporte a decisões baseadas em dados.
+
+---
+
+## Analytics
+Projetos focados na transformação de dados em interfaces intuitivas e na extração de insights estratégicos.
+
+* **[UI Power Pack](https://visuals-powerbi.vercel.app/)**
+* Elevação de dashboards ao padrão premium. Utilização de HTML, CSS e JSON para criação de interfaces responsivas e customizáveis, focadas na experiência do usuário (UX) dentro do Power BI.
+
+* **[Dashboard - Recursos Humanos](https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9)**
+* Dashboard estratégico de gestão de pessoas. Monitoramento de KPIs críticos como turnover, absenteísmo e clima organizacional para suporte à decisão em RH.
+
+* **[Santander - Análise de Satisfação](https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb)**
+* Projeto de Ciência de Dados com foco em modelos de classificação. Exploração, tratamento de dados e modelagem preditiva para identificar padrões de satisfação do cliente e auxiliar estratégias de retenção.
+
+---
 
 ### Meus Certificados 🎓
 Confira meus certificados na nuvem:
-- <a href="https://github.com/DaviMark/Formacao-Certificados" target="_blank">Certificados no Google Drive</a>
+- <a href="https://github.com/DaviMark/Formacao-Certificados" target="_blank">Certificados</a>
+
 ---
 
 ### Estatísticas do GitHub ⚡

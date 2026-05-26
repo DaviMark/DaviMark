@@ -39,13 +39,13 @@ Aqui estão alguns projetos que desenvolvi e contribuo no GitHub:
 ## Engenharia de Dados
 Projetos focados na construção de pipelines robustos, governança de dados e arquiteturas escaláveis (Lakehouse).
 
-* **[Projeto Jira Databricks](https://github.com/DaviMark/projeto_jira_databricks)**
+**[Projeto Jira Databricks](https://github.com/DaviMark/projeto_jira_databricks)**
 * Pipeline end-to-end com PySpark no Databricks. Implementação de Delta Lake sob governança do Unity Catalog e modelagem Star Schema para alta performance analítica.
 
-* **[Projeto GitHub Lakehouse](https://github.com/DaviMark/projeto_github_lakehouse)**
+**[Projeto GitHub Lakehouse](https://github.com/DaviMark/projeto_github_lakehouse)**
 * Implementação de arquitetura moderna de dados utilizando a metodologia de medalhões (Bronze, Silver e Gold) para processamento de dados via API REST.
 
-* **[Consultas SQL - Engenharia de Dados](https://github.com/DaviMark/Consultas_SQL)**
+**[Consultas SQL - Engenharia de Dados](https://github.com/DaviMark/Consultas_SQL)**
 * Repositório de queries otimizadas para automação de relatórios, manipulação de bases relacionais e suporte a decisões baseadas em dados.
 
 ---
@@ -53,13 +53,13 @@ Projetos focados na construção de pipelines robustos, governança de dados e a
 ## Analytics
 Projetos focados na transformação de dados em interfaces intuitivas e na extração de insights estratégicos.
 
-* **[UI Power Pack](https://visuals-powerbi.vercel.app/)**
+**[UI Power Pack](https://visuals-powerbi.vercel.app/)**
 * Elevação de dashboards ao padrão premium. Utilização de HTML, CSS e JSON para criação de interfaces responsivas e customizáveis, focadas na experiência do usuário (UX) dentro do Power BI.
 
-* **[Dashboard - Recursos Humanos](https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9)**
+**[Dashboard - Recursos Humanos](https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9)**
 * Dashboard estratégico de gestão de pessoas. Monitoramento de KPIs críticos como turnover, absenteísmo e clima organizacional para suporte à decisão em RH.
 
-* **[Santander - Análise de Satisfação](https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb)**
+**[Santander - Análise de Satisfação](https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb)**
 * Projeto de Ciência de Dados com foco em modelos de classificação. Exploração, tratamento de dados e modelagem preditiva para identificar padrões de satisfação do cliente e auxiliar estratégias de retenção.
 
 ---

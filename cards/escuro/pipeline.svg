@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue','Segoe UI',Inter,Arial,sans-serif; }
+  .in { opacity: 0; animation: in 1s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; transform: none !important; } }
+</style>
+
+<rect x="0" y="10" width="1000" height="310" rx="30" fill="#161617"/>
+<text x="52" y="78" font-size="14" font-weight="600" letter-spacing="1.8" fill="#2997ff">ARQUITETURA MEDALHÃO</text>
+<text x="52" y="122" font-size="34" font-weight="700" letter-spacing="-1" fill="#f5f5f7">Do dado bruto ao dashboard.</text>
+<line x1="127.0" y1="216.0" x2="873.0" y2="216.0" stroke="#3a3a3c" stroke-width="2" stroke-dasharray="3 6"/>
+<circle r="5" fill="#2997ff"><animateMotion dur="5s" begin="0.00s" repeatCount="indefinite" path="M127.0,216.0 L873.0,216.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" begin="0.00s" repeatCount="indefinite"/></circle><circle r="5" fill="#2997ff"><animateMotion dur="5s" begin="-0.71s" repeatCount="indefinite" path="M127.0,216.0 L873.0,216.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" begin="-0.71s" repeatCount="indefinite"/></circle><circle r="5" fill="#2997ff"><animateMotion dur="5s" begin="-1.42s" repeatCount="indefinite" path="M127.0,216.0 L873.0,216.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" begin="-1.42s" repeatCount="indefinite"/></circle><circle r="5" fill="#2997ff"><animateMotion dur="5s" begin="-2.13s" repeatCount="indefinite" path="M127.0,216.0 L873.0,216.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" begin="-2.13s" repeatCount="indefinite"/></circle><circle r="5" fill="#2997ff"><animateMotion dur="5s" begin="-2.84s" repeatCount="indefinite" path="M127.0,216.0 L873.0,216.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" begin="-2.84s" repeatCount="indefinite"/></circle><circle r="5" fill="#2997ff"><animateMotion dur="5s" begin="-3.55s" repeatCount="indefinite" path="M127.0,216.0 L873.0,216.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" begin="-3.55s" repeatCount="indefinite"/></circle><circle r="5" fill="#2997ff"><animateMotion dur="5s" begin="-4.26s" repeatCount="indefinite" path="M127.0,216.0 L873.0,216.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" begin="-4.26s" repeatCount="indefinite"/></circle>
+<g class="in" style="animation-delay:0.15s">
+<rect x="52.0" y="170" width="150" height="92" rx="18" fill="#1d1d1f" stroke="#3a3a3c"/>
+<circle cx="76.0" cy="200" r="7" fill="#a1a1a6"/>
+<text x="92.0" y="206" font-size="18" font-weight="600" fill="#f5f5f7">Fontes</text>
+<text x="72.0" y="238" font-size="14" fill="#a1a1a6">SAP · APIs · SQL</text></g><g class="in" style="animation-delay:0.27s">
+<rect x="238.5" y="170" width="150" height="92" rx="18" fill="#1d1d1f" stroke="#3a3a3c"/>
+<circle cx="262.5" cy="200" r="7" fill="#c68a50"/>
+<text x="278.5" y="206" font-size="18" font-weight="600" fill="#f5f5f7">Bronze</text>
+<text x="258.5" y="238" font-size="14" fill="#a1a1a6">dado bruto</text></g><g class="in" style="animation-delay:0.39s">
+<rect x="425.0" y="170" width="150" height="92" rx="18" fill="#1d1d1f" stroke="#3a3a3c"/>
+<circle cx="449.0" cy="200" r="7" fill="#aeaeb2"/>
+<text x="465.0" y="206" font-size="18" font-weight="600" fill="#f5f5f7">Silver</text>
+<text x="445.0" y="238" font-size="14" fill="#a1a1a6">limpo e validado</text></g><g class="in" style="animation-delay:0.51s">
+<rect x="611.5" y="170" width="150" height="92" rx="18" fill="#1d1d1f" stroke="#3a3a3c"/>
+<circle cx="635.5" cy="200" r="7" fill="#e0b93a"/>
+<text x="651.5" y="206" font-size="18" font-weight="600" fill="#f5f5f7">Gold</text>
+<text x="631.5" y="238" font-size="14" fill="#a1a1a6">star schema</text></g><g class="in" style="animation-delay:0.63s">
+<rect x="798.0" y="170" width="150" height="92" rx="18" fill="#1d1d1f" stroke="#3a3a3c"/>
+<circle cx="822.0" cy="200" r="7" fill="#2997ff"/>
+<text x="838.0" y="206" font-size="18" font-weight="600" fill="#f5f5f7">Power BI</text>
+<text x="818.0" y="238" font-size="14" fill="#a1a1a6">decisão</text></g>
+</svg>

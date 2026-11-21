@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue','Segoe UI',Inter,Arial,sans-serif; }
+  .in { opacity: 0; animation: in 1s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; transform: none !important; } }
+
+  .bar { transform-box: fill-box; transform-origin: 50% 100%; animation: bar 6s cubic-bezier(.2,.8,.2,1) infinite; }
+  @keyframes bar { 0% { transform: scaleY(0); } 18%,82% { transform: scaleY(1); } 96%,100% { transform: scaleY(0); } }
+  .kpi { transform-box: fill-box; transform-origin: 0 50%; animation: kpi 6s cubic-bezier(.2,.8,.2,1) infinite; }
+  @keyframes kpi { 0% { transform: scaleX(0); } 15%,85% { transform: scaleX(1); } 97%,100% { transform: scaleX(0); } }
+  .ln2 { stroke-dasharray: 1; animation: ln 6s cubic-bezier(.4,0,.2,1) infinite; }
+  @keyframes ln { 0% { stroke-dashoffset: 1; } 30%,85% { stroke-dashoffset: 0; } 97%,100% { stroke-dashoffset: 1; } }
+  .ar2 { animation: ar 6s ease infinite; } @keyframes ar { 0%,15% { opacity: 0; } 35%,85% { opacity: 1; } 97%,100% { opacity: 0; } }
+  .seg { stroke-dasharray: var(--f) 1; stroke-dashoffset: var(--f); animation: seg 6s cubic-bezier(.4,0,.2,1) infinite; }
+  @keyframes seg { 0% { stroke-dashoffset: var(--f); } 25%,85% { stroke-dashoffset: 0; } 97%,100% { stroke-dashoffset: var(--f); } }
+</style>
+
+<rect x="0" y="10" width="1000" height="280" rx="30" fill="#f5f5f7"/>
+<text x="52" y="78" font-size="14" font-weight="600" letter-spacing="1.8" fill="#0071e3">WEB</text>
+<text x="52" y="124" font-size="38" font-weight="700" letter-spacing="-1.1" fill="#1d1d1f">UI Power Pack</text>
+<text x="52" y="164" font-size="18" fill="#6e6e73"><tspan x="52" dy="0">Interfaces premium para Power BI com HTML,</tspan><tspan x="52" dy="27">CSS e JSON, focadas em UX.</tspan></text>
+<text x="52" y="250" font-size="18" font-weight="500" fill="#0071e3">Abrir relatório ›</text>
+<rect x="540" y="40" width="420" height="220" rx="18" fill="#ffffff"/><rect x="562" y="62" width="90" height="9" rx="4.5" fill="#e8e8ed"/><rect x="562.0" y="86" width="115.3" height="54" rx="10" fill="#f5f5f7"/><rect x="574.0" y="100" width="44" height="7" rx="3.5" fill="#e8e8ed"/><rect class="kpi" style="animation-delay:0.00s" x="574.0" y="116" width="58" height="13" rx="4" fill="#0071e3"/><rect x="687.3" y="86" width="115.3" height="54" rx="10" fill="#f5f5f7"/><rect x="699.3" y="100" width="44" height="7" rx="3.5" fill="#e8e8ed"/><rect class="kpi" style="animation-delay:0.15s" x="699.3" y="116" width="48" height="13" rx="4" fill="#6e6e73"/><rect x="812.7" y="86" width="115.3" height="54" rx="10" fill="#f5f5f7"/><rect x="824.7" y="100" width="44" height="7" rx="3.5" fill="#e8e8ed"/><rect class="kpi" style="animation-delay:0.30s" x="824.7" y="116" width="38" height="13" rx="4" fill="#6e6e73"/><path d="M562.0,214.6 C569.0,212.7 589.9,203.9 603.8,202.9 C617.7,201.9 631.6,210.3 645.6,208.4 C659.5,206.4 673.4,193.0 687.3,191.2 C701.3,189.4 715.2,199.3 729.1,197.4 C743.0,195.6 757.0,182.1 770.9,180.3 C784.8,178.5 798.7,188.6 812.7,186.5 C826.6,184.4 840.5,169.9 854.4,167.8 C868.4,165.7 882.3,174.7 896.2,174.0 C910.1,173.4 931.0,165.6 938.0,163.9 L938.0,238 L562.0,238 Z" fill="#d6e6fb" class="ar2"/><path d="M562.0,214.6 C569.0,212.7 589.9,203.9 603.8,202.9 C617.7,201.9 631.6,210.3 645.6,208.4 C659.5,206.4 673.4,193.0 687.3,191.2 C701.3,189.4 715.2,199.3 729.1,197.4 C743.0,195.6 757.0,182.1 770.9,180.3 C784.8,178.5 798.7,188.6 812.7,186.5 C826.6,184.4 840.5,169.9 854.4,167.8 C868.4,165.7 882.3,174.7 896.2,174.0 C910.1,173.4 931.0,165.6 938.0,163.9" pathLength="1" fill="none" stroke="#0071e3" stroke-width="3" stroke-linecap="round" class="ln2"/>
+</svg>

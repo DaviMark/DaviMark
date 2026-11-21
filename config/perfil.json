@@ -1,10 +1,18 @@
 {
   "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz os cards e o README.md sozinho. Para adicionar um relatório ou projeto, copie um bloco { ... } da lista e troque os textos e o link.",
   "nome": "David Marques",
-  "cargo": "Analytics Engineer na UOL.",
+  "eyebrow": "Analytics Engineer · UOL",
+  "manchete": "Dados que viram",
+  "palavras": [
+    "decisões.",
+    "dashboards.",
+    "pipelines.",
+    "resultados."
+  ],
   "descricao": "Transformo dados complexos em decisões. Pipelines, modelagem semântica e dashboards em Power BI para grandes operações.",
   "local": "Jacareí, SP",
   "anos_experiencia": 7,
+  "certificacoes": 14,
   "links": {
     "portfolio": "#",
     "linkedin": "https://www.linkedin.com/in/david-deliberto-marques/",
@@ -68,5 +76,7 @@
     "SAP HANA",
     "Git",
     "GitHub Actions"
-  ]
+  ],
+  "contato_titulo": "Vamos conversar.",
+  "contato_texto": "Aberto a projetos de dados, BI e engenharia de dados."
 }

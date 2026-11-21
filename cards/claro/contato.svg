@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="86" viewBox="0 0 1000 86">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250">
 <style>
   text { font-family: -apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue','Segoe UI',Inter,Arial,sans-serif; }
-  .in { opacity: 0; animation: in .9s cubic-bezier(.2,.7,.2,1) forwards; }
-  @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-  
+  .in { opacity: 0; animation: in 1s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; transform: none !important; } }
 </style>
-<text x="0" y="62" font-size="30" font-weight="700" letter-spacing="-.6" fill="#1d1d1f">Contato</text>
+<rect x="0" y="10" width="1000" height="230" rx="30" fill="#f5f5f7"/>
+<text class="in" x="500.0" y="122" text-anchor="middle" font-size="56" font-weight="700" letter-spacing="-1.8" fill="#1d1d1f">Vamos conversar.</text>
+<text class="in" style="animation-delay:.15s" x="500.0" y="170" text-anchor="middle" font-size="20" fill="#6e6e73">Aberto a projetos de dados, BI e engenharia de dados.</text>
 </svg>

@@ -1,23 +1,17 @@
 {
-  "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz os cards e o README.md sozinho. Para adicionar um relatório ou projeto, copie um bloco { ... } da lista e troque os textos e o link. O campo 'ferramenta' define o ícone e a cor (Power BI, Python, SQL, Databricks, BigQuery, Excel, Looker, Web).",
-
-  "nome": "Davi",
-  "nome_completo": "David Marques",
-  "titulo": "Analytics Engineer • Engenheiro de Dados na",
-  "destaque_titulo": "UOL",
-  "descricao": "7 anos transformando dados complexos em decisões. Pipelines, modelagem semântica e dashboards Power BI de alta performance.",
-  "chips": ["Power BI", "SQL", "Python", "BigQuery", "DAX", "Airflow"],
+  "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz os cards e o README.md sozinho. Para adicionar um relatório ou projeto, copie um bloco { ... } da lista e troque os textos e o link.",
+  "nome": "David Marques",
+  "cargo": "Analytics Engineer na UOL.",
+  "descricao": "Transformo dados complexos em decisões. Pipelines, modelagem semântica e dashboards em Power BI para grandes operações.",
+  "local": "Jacareí, SP",
   "anos_experiencia": 7,
-  "frase": "Dados bem modelados contam histórias. Eu construo a estrutura para que sejam ouvidas.",
-
   "links": {
     "portfolio": "#",
     "linkedin": "https://www.linkedin.com/in/david-deliberto-marques/",
     "email": "mailto:davideliberto2001@gmail.com",
     "certificados": "https://github.com/DaviMark/Formacao-Certificados"
   },
-
-  "relatorios_titulo": "Relatórios em destaque",
+  "relatorios_titulo": "Relatórios",
   "relatorios_ver_todos": "#",
   "relatorios": [
     {
@@ -39,8 +33,7 @@
       "link": "https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb"
     }
   ],
-
-  "projetos_titulo": "Projetos de engenharia de dados",
+  "projetos_titulo": "Projetos",
   "projetos_ver_todos": "https://github.com/DaviMark?tab=repositories",
   "projetos": [
     {
@@ -62,6 +55,18 @@
       "link": "https://github.com/DaviMark/Consultas_SQL"
     }
   ],
-
-  "tech_stack": ["Power BI", "DAX", "Power Query", "SQL", "Python", "BigQuery", "Databricks", "Spark", "Airflow", "Git", "Actions", "SAP HANA"]
+  "tech_stack": [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "SQL",
+    "Python",
+    "BigQuery",
+    "Databricks",
+    "Apache Spark",
+    "Airflow",
+    "SAP HANA",
+    "Git",
+    "GitHub Actions"
+  ]
 }

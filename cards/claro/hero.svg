@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue','Segoe UI',Inter,Arial,sans-serif; }
+  .in { opacity: 0; animation: in .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  
+</style>
+
+<text class="in" x="0" y="74" font-size="56" font-weight="700" letter-spacing="-1.4" fill="#1d1d1f">David Marques</text>
+<text class="in" style="animation-delay:.12s" x="0" y="124" font-size="32" font-weight="600" letter-spacing="-.6" fill="#6e6e73">Analytics Engineer na UOL.</text>
+<text class="in" style="animation-delay:.24s" x="0" y="184" font-size="19" fill="#6e6e73"><tspan x="0" dy="0">Transformo dados complexos em decisões. Pipelines, modelagem semântica e</tspan><tspan x="0" dy="29">dashboards em Power BI para grandes operações.</tspan></text>
+<text class="in" style="animation-delay:.36s" x="0" y="264" font-size="15" fill="#86868b">Jacareí, SP  ·  7 anos em dados e BI</text>
+</svg>

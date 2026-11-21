@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="104" viewBox="0 0 1000 104">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue','Segoe UI',Inter,Arial,sans-serif; }
+  .in { opacity: 0; animation: in .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  
+</style>
+<line x1="0" y1=".5" x2="1000" y2=".5" stroke="#d2d2d7"/>
+<text x="0" y="44" font-size="20" font-weight="600" letter-spacing="-.3" fill="#1d1d1f">UI Power Pack</text>
+<text x="0" y="74" font-size="16" fill="#6e6e73">Interfaces premium para Power BI com HTML, CSS e JSON, focadas em UX.</text>
+<text x="910" y="58" text-anchor="end" font-size="15" fill="#86868b">Web</text>
+<text x="1000" y="58" text-anchor="end" font-size="17" fill="#0066cc">Abrir ›</text>
+
+</svg>

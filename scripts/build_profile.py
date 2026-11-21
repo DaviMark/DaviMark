@@ -203,14 +203,16 @@ def profile(photo: str | None) -> str:
         ix += 36 + tw
     chips, x = [], 34
     for c in CFG["chips"]:
-        cw = 40 + len(c) * 7
+        cw = 36 + len(c) * 6.6
+        if x + cw > 620 - 30:
+            break
         bg, fg, _ = TOOLS.get(c, (TER, TEXT, ""))
         uri = logo(c)
         mark = (f'<image href="{uri}" x="{x+9}" y="228" width="14" height="14"/>' if uri
                 else f'<rect x="{x+10}" y="229" width="12" height="12" rx="3" fill="{bg}"/>')
         chips.append(f'<rect x="{x}" y="220" width="{cw:.0f}" height="30" rx="7" fill="{CHIP}" stroke="{EDGE}"/>' + mark +
                      f'<text x="{x+29}" y="240" font-size="12.5" fill="{TEXT}">{esc(c)}</text>')
-        x += cw + 8
+        x += cw + 7
     nx = 176
     namew = len(CFG["nome"]) * 17
     body = f"""{card(w, h)}

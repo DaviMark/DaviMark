@@ -13,11 +13,17 @@ import sys
 
 import requests
 
-from theme import DATA_FILE
+from pathlib import Path
+
+DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "contributions.json"
 
 API = "https://api.github.com/graphql"
 
-Q_USER = "query($login:String!){ user(login:$login){ createdAt } }"
+Q_USER = """query($login:String!){ user(login:$login){
+  createdAt
+  followers { totalCount }
+  repositories(ownerAffiliations: OWNER, privacy: PUBLIC, first: 100) { totalCount nodes { stargazerCount } }
+} }"""
 Q_YEAR = """
 query($login:String!, $from:DateTime!, $to:DateTime!){
   user(login:$login){
@@ -44,7 +50,15 @@ def main() -> None:
     if not token:
         sys.exit("GH_TOKEN não definido")
 
-    created = dt.datetime.fromisoformat(gql(token, Q_USER, {"login": login})["user"]["createdAt"].replace("Z", "+00:00"))
+    user = gql(token, Q_USER, {"login": login})["user"]
+    created = dt.datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))
+    stats = {
+        "repositorios": user["repositories"]["totalCount"],
+        "estrelas": sum(n["stargazerCount"] for n in user["repositories"]["nodes"]),
+        "seguidores": user["followers"]["totalCount"],
+    }
+    (DATA_FILE.parent / "github_stats.json").parent.mkdir(parents=True, exist_ok=True)
+    (DATA_FILE.parent / "github_stats.json").write_text(json.dumps(stats, indent=1), encoding="utf-8")
     now = dt.datetime.now(dt.timezone.utc)
 
     days: dict[str, int] = {}

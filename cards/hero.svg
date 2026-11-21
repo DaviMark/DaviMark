@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .in { opacity: 0; animation: fadeUp .7s ease-out forwards; }
+  .fade { opacity: 0; animation: fadeIn .5s ease-out forwards; }
+  .tw { animation: tw 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; } @keyframes tw { 0%,100% { opacity: .25; transform: scale(.7); } 50% { opacity: 1; transform: scale(1); } } .float { animation: fl 6s ease-in-out infinite; } @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } } .bar { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); animation: grow .8s cubic-bezier(.2,.8,.2,1) forwards; } @keyframes grow { to { transform: scaleY(1); } }
+</style>
+
+<rect x="6" y="6" width="988" height="308" rx="14" fill="#0d1117" stroke="url(#edge)" stroke-width="1.4"/>
+
+<defs>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#5865f2" stop-opacity=".45"/>
+    <stop offset=".6" stop-color="#3b2f8f" stop-opacity=".15"/>
+    <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#30363d"/><stop offset=".6" stop-color="#30363d"/><stop offset="1" stop-color="#5865f2"/></linearGradient>
+</defs>
+<ellipse cx="770" cy="160" rx="190" ry="140" fill="url(#glow)"/>
+<ellipse id="orb" cx="770" cy="160" rx="170" ry="62" fill="none" stroke="#6e7cff" stroke-opacity=".55" stroke-width="1.4" stroke-dasharray="4 6" transform="rotate(-14 770 160)"/>
+<g transform="rotate(-14 770 160)">
+  <circle r="5" fill="#a5b4ff"><animateMotion dur="9s" repeatCount="indefinite" path="M600,160 a170,62 0 1,0 340,0 a170,62 0 1,0 -340,0"/></circle>
+  <circle r="3.5" fill="#7ee787"><animateMotion dur="9s" begin="-4.5s" repeatCount="indefinite" path="M600,160 a170,62 0 1,0 340,0 a170,62 0 1,0 -340,0"/></circle>
+</g>
+<path d="M640 63 L641.96 68.04 L647 70 L641.96 71.96 L640 77 L638.04 71.96 L633 70 L638.04 68.04Z" fill="#c9d1ff" class="tw" style="animation-delay:0s"/><path d="M920 51 L922.52 57.48 L929 60 L922.52 62.52 L920 69 L917.48 62.52 L911 60 L917.48 57.48Z" fill="#c9d1ff" class="tw" style="animation-delay:0.8s"/><path d="M950 224 L951.68 228.32 L956 230 L951.68 231.68 L950 236 L948.32 231.68 L944 230 L948.32 228.32Z" fill="#c9d1ff" class="tw" style="animation-delay:1.6s"/><path d="M610 245 L611.4 248.6 L615 250 L611.4 251.4 L610 255 L608.6 251.4 L605 250 L608.6 248.6Z" fill="#c9d1ff" class="tw" style="animation-delay:2.2s"/><path d="M860 275 L861.4 278.6 L865 280 L861.4 281.4 L860 285 L858.6 281.4 L855 280 L858.6 278.6Z" fill="#c9d1ff" class="tw" style="animation-delay:1.1s"/>
+<g class="float">
+  <rect x="684" y="94" width="172" height="104" rx="8" fill="#0b1020" stroke="#6e7cff" stroke-opacity=".8" stroke-width="1.5"/>
+  <rect x="696" y="104" width="46" height="18" rx="3" fill="#161b22"/>
+  <rect x="748" y="104" width="46" height="18" rx="3" fill="#161b22"/>
+  <rect x="800" y="104" width="46" height="18" rx="3" fill="#161b22"/>
+  <rect x="700" y="110" width="20" height="5" rx="2" fill="#3fb950"/>
+  <rect x="752" y="110" width="28" height="5" rx="2" fill="#a5b4ff"/>
+  <rect x="804" y="110" width="16" height="5" rx="2" fill="#F2C811"/>
+  <rect class="bar" x="708" y="152" width="10" height="18" rx="2" fill="#7ee787" style="animation-delay:0.60s"/><rect class="bar" x="724" y="140" width="10" height="30" rx="2" fill="#3fb950" style="animation-delay:0.68s"/><rect class="bar" x="740" y="146" width="10" height="24" rx="2" fill="#3fb950" style="animation-delay:0.76s"/><rect class="bar" x="756" y="130" width="10" height="40" rx="2" fill="#7ee787" style="animation-delay:0.84s"/><rect class="bar" x="772" y="136" width="10" height="34" rx="2" fill="#3fb950" style="animation-delay:0.92s"/><rect class="bar" x="788" y="122" width="10" height="48" rx="2" fill="#3fb950" style="animation-delay:1.00s"/><rect class="bar" x="804" y="126" width="10" height="44" rx="2" fill="#7ee787" style="animation-delay:1.08s"/><rect class="bar" x="820" y="112" width="10" height="58" rx="2" fill="#3fb950" style="animation-delay:1.16s"/>
+  <polyline points="840,134 826,150 814,144 800,164" fill="none" stroke="#a5b4ff" stroke-width="2" class="fade" style="animation-delay:1.4s"/>
+  <path d="M666 198 H874 L888 212 H652 Z" fill="#1c2230" stroke="#6e7cff" stroke-opacity=".6"/>
+  <g transform="translate(866 64)" class="fade" style="animation-delay:1s">
+    <ellipse cx="0" cy="0" rx="18" ry="6" fill="#161b22" stroke="#3fb950"/>
+    <path d="M-18 0 V20 A18 6 0 0 0 18 20 V0" fill="#161b22" stroke="#3fb950"/>
+    <path d="M-18 10 A18 6 0 0 0 18 10" fill="none" stroke="#3fb950"/>
+  </g>
+</g>
+<g class="in" style="animation-delay:.05s"><rect x="44" y="36" width="104" height="24" rx="6" fill="#0f2417" stroke="#1f6f3a"/>
+<text x="56" y="53" font-size="12.5" font-weight="600" fill="#7ee787">▤ README.md</text></g>
+<text class="in" style="animation-delay:.15s" x="44" y="112" font-size="42" font-weight="800" fill="#e6edf3">Olá, eu sou o <tspan fill="#3fb950">Davi</tspan> 👋</text>
+<text class="in" style="animation-delay:.25s" x="44" y="148" font-size="18" font-weight="600" fill="#e6edf3">Analytics Engineer • Engenheiro de Dados na <tspan fill="#3fb950">UOL</tspan></text>
+<text class="in" style="animation-delay:.35s" x="44" y="184" font-size="15" fill="#8b949e"><tspan x="44" dy="0">7 anos transformando dados complexos em decisões. Pipelines,</tspan><tspan x="44" dy="22">modelagem semântica e dashboards Power BI de alta performance.</tspan></text>
+<g class="in" style="animation-delay:0.50s"><rect x="44" y="236" width="95" height="30" rx="7" fill="#161b22" stroke="#30363d"/><rect x="53" y="245" width="12" height="12" rx="3" fill="#F2C811"/><text x="72" y="256" font-size="13" fill="#e6edf3">Power BI</text></g><g class="in" style="animation-delay:0.57s"><rect x="146.8" y="236" width="57" height="30" rx="7" fill="#161b22" stroke="#30363d"/><rect x="155.8" y="245" width="12" height="12" rx="3" fill="#336791"/><text x="174.8" y="256" font-size="13" fill="#e6edf3">SQL</text></g><g class="in" style="animation-delay:0.64s"><rect x="211.60000000000002" y="236" width="80" height="30" rx="7" fill="#161b22" stroke="#30363d"/><rect x="220.60000000000002" y="245" width="12" height="12" rx="3" fill="#3776AB"/><text x="239.60000000000002" y="256" font-size="13" fill="#e6edf3">Python</text></g><g class="in" style="animation-delay:0.71s"><rect x="299.20000000000005" y="236" width="95" height="30" rx="7" fill="#161b22" stroke="#30363d"/><rect x="308.20000000000005" y="245" width="12" height="12" rx="3" fill="#4285F4"/><text x="327.20000000000005" y="256" font-size="13" fill="#e6edf3">BigQuery</text></g><g class="in" style="animation-delay:0.78s"><rect x="402.00000000000006" y="236" width="57" height="30" rx="7" fill="#161b22" stroke="#30363d"/><rect x="411.00000000000006" y="245" width="12" height="12" rx="3" fill="#00897B"/><text x="430.00000000000006" y="256" font-size="13" fill="#e6edf3">DAX</text></g><g class="in" style="animation-delay:0.85s"><rect x="466.80000000000007" y="236" width="87" height="30" rx="7" fill="#161b22" stroke="#30363d"/><rect x="475.80000000000007" y="245" width="12" height="12" rx="3" fill="#017CEE"/><text x="494.80000000000007" y="256" font-size="13" fill="#e6edf3">Airflow</text></g>
+</svg>

@@ -1,41 +1,15 @@
+<!-- Este README é gerado por scripts/build_profile.py.
+Para mudar textos, links, relatórios e projetos, edite config/perfil.json:
+o GitHub Action refaz tudo sozinho. Mantenha as imagens de cada linha coladas, sem espaços. -->
 <div align="center">
-
-<!-- gráfico de contribuições animado: dados reais, células aparecem uma a uma
-(atualizado todo dia por .github/workflows/update-profile-art.yml) -->
-
-<h3><code>davi@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Gráfico de contribuições do Davi no GitHub, atualizado diariamente" />
-
-<br>
-<br>
-
-<!-- retrato ASCII (esquerda) + painel de sequência/números (direita).
-os dois SVGs têm 840x880, então larguras iguais dão alturas iguais.
-retrato: coloque sua foto em assets/foto.png e rode o workflow manualmente
-números: scripts/render_stats_svg.py (mesmo workflow diário) -->
-
-<h3><code>davi@github ~ $ whoami</code></h3>
-
-<table>
-<tr>
-<td valign="top"><img src="./avatar-ascii.svg" width="420" alt="Davi Marques: retrato em ASCII" /></td>
-<td valign="top"><img src="./stats.svg" width="420" alt="Sequência e estatísticas de contribuição do Davi, atualizadas diariamente" /></td>
-</tr>
-</table>
-
-<br>
-<br>
-
-<h3><code>davi@github ~ $ ./links.sh</code></h3>
-
-<p><b>Analytics Engineer · Engenheiro de Dados · Power BI Developer</b></p>
-
-[![Portfólio](https://img.shields.io/badge/Portfólio-meus_projetos-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-david--deliberto--marques-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-deliberto-marques/)
-[![Email](https://img.shields.io/badge/Email-davideliberto2001-D44638?style=for-the-badge&logo=gmail&logoColor=white)](mailto:davideliberto2001@gmail.com)
-[![Certificados](https://img.shields.io/badge/⚡_Certificados-Formação-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://github.com/DaviMark/Formacao-Certificados)
-
-<br>
-
+<a href="#"><img src="./cards/hero.svg" width="100%" alt="Olá, eu sou o David Marques. Analytics Engineer • Engenheiro de Dados na UOL." /></a><br>
+<img src="./cards/stat-repos.svg" width="25%" alt="Repositórios públicos" /><img src="./cards/stat-contrib.svg" width="25%" alt="Contribuições no último ano" /><img src="./cards/stat-relatorios.svg" width="25%" alt="Relatórios e projetos" /><img src="./cards/stat-exp.svg" width="25%" alt="Anos de experiência" /><br>
+<img src="./cards/atividade.svg" width="100%" alt="Gráfico de contribuições do último ano" /><br>
+<a href="#"><img src="./cards/secao-relatorios.svg" width="100%" alt="Relatórios em destaque" /></a><br>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9"><img src="./cards/relatorio-1.svg" width="33.333%" alt="Dashboard de RH: Gestão de pessoas: turnover, absenteísmo e clima organizacional para decisões de RH." /></a><a href="https://visuals-powerbi.vercel.app/"><img src="./cards/relatorio-2.svg" width="33.333%" alt="UI Power Pack: Interfaces premium para Power BI com HTML, CSS e JSON, focadas em UX." /></a><a href="https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb"><img src="./cards/relatorio-3.svg" width="33.333%" alt="Santander: Satisfação: Modelos de classificação para identificar padrões de satisfação e apoiar retenção." /></a><br>
+<a href="https://github.com/DaviMark?tab=repositories"><img src="./cards/secao-projetos.svg" width="100%" alt="Projetos de engenharia de dados" /></a><br>
+<a href="https://github.com/DaviMark/projeto_jira_databricks"><img src="./cards/projeto-1.svg" width="33.333%" alt="Jira + Databricks: Pipeline end-to-end em PySpark com Delta Lake, Unity Catalog e Star Schema." /></a><a href="https://github.com/DaviMark/projeto_github_lakehouse"><img src="./cards/projeto-2.svg" width="33.333%" alt="GitHub Lakehouse: Arquitetura medalhão (Bronze, Silver, Gold) consumindo dados de uma API REST." /></a><a href="https://github.com/DaviMark/Consultas_SQL"><img src="./cards/projeto-3.svg" width="33.333%" alt="Consultas SQL: Queries otimizadas para automação de relatórios e bases relacionais." /></a><br>
+<img src="./cards/tech.svg" width="100%" alt="Tech stack: Power BI, DAX, Power Query, SQL, Python, BigQuery, Databricks, Spark, Airflow, Git, Actions, SAP HANA" /><br>
+<a href="#"><img src="./cards/link-portfolio.svg" width="25%" alt="Portfólio" /></a><a href="https://www.linkedin.com/in/david-deliberto-marques/"><img src="./cards/link-linkedin.svg" width="25%" alt="LinkedIn" /></a><a href="mailto:davideliberto2001@gmail.com"><img src="./cards/link-email.svg" width="25%" alt="E-mail" /></a><a href="https://github.com/DaviMark/Formacao-Certificados"><img src="./cards/link-certificados.svg" width="25%" alt="Certificados" /></a><br>
+<img src="./cards/frase.svg" width="100%" alt="Dados bem modelados contam histórias. Eu construo a estrutura para que sejam ouvidas." />
 </div>

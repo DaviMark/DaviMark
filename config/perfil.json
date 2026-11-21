@@ -1,0 +1,67 @@
+{
+  "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz os cards e o README.md sozinho. Para adicionar um relatório ou projeto, copie um bloco { ... } da lista e troque os textos e o link. O campo 'ferramenta' define o ícone e a cor (Power BI, Python, SQL, Databricks, BigQuery, Excel, Looker, Web).",
+
+  "nome": "Davi",
+  "nome_completo": "David Marques",
+  "titulo": "Analytics Engineer • Engenheiro de Dados na",
+  "destaque_titulo": "UOL",
+  "descricao": "7 anos transformando dados complexos em decisões. Pipelines, modelagem semântica e dashboards Power BI de alta performance.",
+  "chips": ["Power BI", "SQL", "Python", "BigQuery", "DAX", "Airflow"],
+  "anos_experiencia": 7,
+  "frase": "Dados bem modelados contam histórias. Eu construo a estrutura para que sejam ouvidas.",
+
+  "links": {
+    "portfolio": "#",
+    "linkedin": "https://www.linkedin.com/in/david-deliberto-marques/",
+    "email": "mailto:davideliberto2001@gmail.com",
+    "certificados": "https://github.com/DaviMark/Formacao-Certificados"
+  },
+
+  "relatorios_titulo": "Relatórios em destaque",
+  "relatorios_ver_todos": "#",
+  "relatorios": [
+    {
+      "titulo": "Dashboard de RH",
+      "descricao": "Gestão de pessoas: turnover, absenteísmo e clima organizacional para decisões de RH.",
+      "ferramenta": "Power BI",
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9"
+    },
+    {
+      "titulo": "UI Power Pack",
+      "descricao": "Interfaces premium para Power BI com HTML, CSS e JSON, focadas em UX.",
+      "ferramenta": "Web",
+      "link": "https://visuals-powerbi.vercel.app/"
+    },
+    {
+      "titulo": "Santander: Satisfação",
+      "descricao": "Modelos de classificação para identificar padrões de satisfação e apoiar retenção.",
+      "ferramenta": "Python",
+      "link": "https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb"
+    }
+  ],
+
+  "projetos_titulo": "Projetos de engenharia de dados",
+  "projetos_ver_todos": "https://github.com/DaviMark?tab=repositories",
+  "projetos": [
+    {
+      "titulo": "Jira + Databricks",
+      "descricao": "Pipeline end-to-end em PySpark com Delta Lake, Unity Catalog e Star Schema.",
+      "ferramenta": "Databricks",
+      "link": "https://github.com/DaviMark/projeto_jira_databricks"
+    },
+    {
+      "titulo": "GitHub Lakehouse",
+      "descricao": "Arquitetura medalhão (Bronze, Silver, Gold) consumindo dados de uma API REST.",
+      "ferramenta": "Python",
+      "link": "https://github.com/DaviMark/projeto_github_lakehouse"
+    },
+    {
+      "titulo": "Consultas SQL",
+      "descricao": "Queries otimizadas para automação de relatórios e bases relacionais.",
+      "ferramenta": "SQL",
+      "link": "https://github.com/DaviMark/Consultas_SQL"
+    }
+  ],
+
+  "tech_stack": ["Power BI", "DAX", "Power Query", "SQL", "Python", "BigQuery", "Databricks", "Spark", "Airflow", "Git", "Actions", "SAP HANA"]
+}

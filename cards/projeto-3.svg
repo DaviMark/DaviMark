@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="333.33" height="176" viewBox="0 0 333.33 176">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .in { opacity: 0; animation: fadeUp .7s ease-out forwards; }
+  .fade { opacity: 0; animation: fadeIn .5s ease-out forwards; }
+  
+</style>
+<rect x="6" y="6" width="321.33" height="164" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+<g class="in" style="animation-delay:0.2s">
+<rect x="26" y="26" width="36" height="36" rx="7.9" fill="#336791"/><text x="44.0" y="48.1" text-anchor="middle" font-size="11.5" font-weight="800" fill="#ffffff">SQL</text>
+<text x="74" y="41" font-size="16" font-weight="700" fill="#3fb950">Consultas SQL</text>
+<text x="74" y="59" font-size="12" fill="#8b949e">SQL</text>
+<text x="26" y="90" font-size="13" fill="#c9d1d9"><tspan x="26" dy="0">Queries otimizadas para automação de</tspan><tspan x="26" dy="18">relatórios e bases relacionais.</tspan></text>
+<circle cx="31" cy="146" r="5" fill="#336791"/>
+<text x="42" y="150" font-size="12" fill="#8b949e">SQL</text>
+<text x="307" y="150" text-anchor="end" font-size="12.5" font-weight="600" fill="#3fb950">Abrir ↗</text>
+</g>
+</svg>

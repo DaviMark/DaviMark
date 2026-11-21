@@ -1,4 +1,4 @@
-name: Atualizar arte do perfil
+name: Atualizar perfil
 
 on:
   schedule:
@@ -7,8 +7,8 @@ on:
   push:
     branches: [main]
     paths:
+      - "config/**"
       - "scripts/**"
-      - "assets/**"
       - ".github/workflows/update-profile-art.yml"
 
 permissions:
@@ -27,31 +27,20 @@ jobs:
       - name: Instalar dependências
         run: pip install -r scripts/requirements.txt
 
-      - name: Baixar contribuições
+      - name: Baixar contribuições e números do GitHub
         env:
           # opcional: crie o secret GH_PAT (token com escopo read:user) para contar contribuições privadas
           GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
           GH_LOGIN: ${{ github.repository_owner }}
         run: python scripts/fetch_contributions.py
 
-      - name: Gerar gráfico e estatísticas
-        run: |
-          python scripts/render_heatmap_svg.py
-          python scripts/render_stats_svg.py
-
-      # o retrato só é refeito quando a foto/scripts mudam ou quando você roda manualmente
-      - name: Gerar retrato ASCII
-        if: github.event_name != 'schedule' || hashFiles('avatar-ascii.svg') == ''
-        env:
-          GH_LOGIN: ${{ github.repository_owner }}
-        run: |
-          pip install "rembg[cpu]"
-          python scripts/make_ascii_svg.py
+      - name: Gerar cards e README
+        run: python scripts/build_profile.py
 
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contrib-heatmap.svg stats.svg avatar-ascii.svg data/contributions.json
-          git diff --cached --quiet || git commit -m "chore: atualizar arte do perfil [skip ci]"
+          git add -A cards README.md data
+          git diff --cached --quiet || git commit -m "chore: atualizar perfil [skip ci]"
           git push

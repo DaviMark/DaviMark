@@ -14,7 +14,7 @@ e projetos, edite config/perfil.json: o GitHub Action refaz tudo sozinho. -->
 <a href="https://github.com/DaviMark/projeto_jira_databricks"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/escuro/projeto-1.svg" /><img src="./cards/claro/projeto-1.svg" width="33.333%" alt="Jira + Databricks: Pipeline end-to-end em PySpark com Delta Lake, Unity Catalog e Star Schema." /></picture></a><a href="https://github.com/DaviMark/projeto_github_lakehouse"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/escuro/projeto-2.svg" /><img src="./cards/claro/projeto-2.svg" width="33.333%" alt="GitHub Lakehouse: Arquitetura medalhão (Bronze, Silver, Gold) consumindo dados de uma API REST." /></picture></a><a href="https://github.com/DaviMark/Consultas_SQL"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/escuro/projeto-3.svg" /><img src="./cards/claro/projeto-3.svg" width="33.333%" alt="Consultas SQL: Queries otimizadas para automação de relatórios e bases relacionais." /></picture></a>
 <br><br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/escuro/atividade.svg" /><img src="./cards/claro/atividade.svg" width="100%" alt="495 contribuições no último ano" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/escuro/atividade.svg" /><img src="./cards/claro/atividade.svg" width="100%" alt="496 contribuições no último ano" /></picture>
 <br><br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/escuro/ferramentas.svg" /><img src="./cards/claro/ferramentas.svg" width="100%" alt="Ferramentas: Power BI, DAX, Power Query, SQL, Python, BigQuery, Databricks, Apache Spark, Airflow, SAP HANA, Git, GitHub Actions" /></picture>

@@ -1,26 +1,50 @@
 {
   "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz os cards e o README.md sozinho. Para adicionar um relatório ou projeto, copie um bloco { ... } da lista e troque os textos e o link.",
-  "nome": "David Marques",
   "eyebrow": "Analytics Engineer · UOL",
-  "manchete": "Dados que viram",
+  "saudacao": "Olá, eu sou o David.",
+  "manchete": "Transformo dados em",
   "palavras": [
     "decisões.",
-    "dashboards.",
-    "pipelines.",
-    "resultados."
+    "estratégia.",
+    "clareza.",
+    "resultado."
   ],
-  "descricao": "Transformo dados complexos em decisões. Pipelines, modelagem semântica e dashboards em Power BI para grandes operações.",
+  "apresentacao": [
+    "Sou Analytics Engineer com 7 anos de experiência em dados. Atualmente conduzo, na UOL, a transição dos dados do SAP S/4HANA para o Google Cloud, com pipelines governados, versionados e totalmente automatizados.",
+    "Minha formação é em Engenharia Mecânica, e foi na indústria que aprendi a enxergar processos. Hoje uno a robustez da engenharia à inteligência de negócio para entregar dados confiáveis a quem precisa decidir."
+  ],
   "local": "Jacareí, SP",
-  "anos_experiencia": 7,
-  "certificacoes": 14,
-  "links": {
-    "portfolio": "#",
-    "linkedin": "https://www.linkedin.com/in/david-deliberto-marques/",
-    "email": "mailto:davideliberto2001@gmail.com",
-    "certificados": "https://github.com/DaviMark/Formacao-Certificados"
-  },
-  "relatorios_titulo": "Relatórios",
-  "relatorios_ver_todos": "#",
+  "pilares_titulo": "O que eu faço.",
+  "pilares": [
+    {
+      "titulo": "Engenharia de dados",
+      "texto": "Desenho pipelines ETL/ELT no BigQuery e no Databricks, integrando SAP HANA, Oracle, SQL Server e APIs, com orquestração no Airflow e CI/CD."
+    },
+    {
+      "titulo": "Modelagem e BI",
+      "texto": "Construo modelos semânticos em Power BI com Star Schema, DAX e Power Query, otimizados para performance e protegidos com segurança em nível de linha."
+    },
+    {
+      "titulo": "Produtos de dados",
+      "texto": "Traduzo necessidades do negócio em relatórios claros, com foco em experiência do usuário e narrativa, para que a diretoria decida com segurança."
+    }
+  ],
+  "tech_stack": [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "SQL",
+    "Python",
+    "BigQuery",
+    "Databricks",
+    "Apache Spark",
+    "Airflow",
+    "SAP HANA",
+    "Git",
+    "GitHub Actions"
+  ],
+  "trabalhos_titulo": "Trabalhos.",
+  "trabalhos_subtitulo": "Relatórios e projetos selecionados.",
   "relatorios": [
     {
       "titulo": "Dashboard de RH",
@@ -41,8 +65,6 @@
       "link": "https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb"
     }
   ],
-  "projetos_titulo": "Projetos",
-  "projetos_ver_todos": "https://github.com/DaviMark?tab=repositories",
   "projetos": [
     {
       "titulo": "Jira + Databricks",
@@ -63,20 +85,12 @@
       "link": "https://github.com/DaviMark/Consultas_SQL"
     }
   ],
-  "tech_stack": [
-    "Power BI",
-    "DAX",
-    "Power Query",
-    "SQL",
-    "Python",
-    "BigQuery",
-    "Databricks",
-    "Apache Spark",
-    "Airflow",
-    "SAP HANA",
-    "Git",
-    "GitHub Actions"
-  ],
-  "contato_titulo": "Vamos conversar.",
-  "contato_texto": "Aberto a projetos de dados, BI e engenharia de dados."
+  "contato_titulo": "Contato.",
+  "contato_texto": "Estou disponível para conversar sobre projetos de dados, BI e engenharia de dados.",
+  "links": {
+    "portfolio": "#",
+    "linkedin": "https://www.linkedin.com/in/david-deliberto-marques/",
+    "email": "mailto:davideliberto2001@gmail.com",
+    "certificados": "https://github.com/DaviMark/Formacao-Certificados"
+  }
 }

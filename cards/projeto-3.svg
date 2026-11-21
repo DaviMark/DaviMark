@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="190" viewBox="0 0 380 190">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; }
+  .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+  .in { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; transform: none !important; } }
+</style>
+<rect x="6" y="6" width="368" height="178" rx="14" fill="#0a0d0b" stroke="#1f2a23" stroke-width="1.2"/>
+
+<g class="in" style="animation-delay:0.24s">
+<rect x="30" y="30" width="120" height="138" rx="6" fill="#101512" stroke="#1f2a23"/><rect x="38" y="38" width="42" height="4" rx="2" fill="#2a332d"/><rect x="38.0" y="48" width="30.7" height="14" rx="2" fill="#18201b"/><rect x="72.7" y="48" width="30.7" height="14" rx="2" fill="#18201b"/><rect x="107.3" y="48" width="30.7" height="14" rx="2" fill="#18201b"/><rect x="38" y="70.0" width="104" height="5" rx="2" fill="#1d4d31"/><rect x="38" y="79.0" width="104" height="5" rx="2" fill="#18201b"/><rect x="38" y="88.0" width="104" height="5" rx="2" fill="#18201b"/><rect x="38" y="97.0" width="104" height="5" rx="2" fill="#18201b"/>
+<text x="168" y="44" font-size="15.5" font-weight="600" fill="#e8ede9">Jira + Databricks</text>
+<text x="168" y="66" font-size="12.5" fill="#9aa39d"><tspan x="168" dy="0">Pipeline end-to-end em PySpark</tspan><tspan x="168" dy="17">com Delta Lake, Unity Catalog</tspan><tspan x="168" dy="17">e Star Schema.</tspan></text>
+<rect x="168" y="142" width="59" height="20" rx="5" fill="#121815" stroke="#1f2a23"/><text x="176" y="156" font-size="11" fill="#9aa39d">PySpark</text><rect x="233.4" y="142" width="78" height="20" rx="5" fill="#121815" stroke="#1f2a23"/><text x="241.4" y="156" font-size="11" fill="#9aa39d">Delta Lake</text>
+</g>
+</svg>

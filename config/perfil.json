@@ -1,69 +1,114 @@
 {
-  "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz os cards e o README.md sozinho. Para adicionar um relatório ou projeto, copie um bloco { ... } da lista e troque os textos e o link.",
+  "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz o README sozinho. Os 3 primeiros itens de 'projetos' aparecem em destaque; a ordem importa.",
   "nome": "David Marques",
-  "cargo": "Analytics Engineer · UOL",
-  "resumo": [
-    "Engenharia de dados e Power BI",
-    "7 anos de experiência",
-    "Jacareí, SP"
+  "cargo": "Analytics Engineer",
+  "bio": "Engenharia de dados e Power BI na UOL, da migração SAP S/4HANA ao Google Cloud.",
+  "mostrar_foto": true,
+  "local": "Jacareí, SP",
+  "site_rotulo": "LinkedIn",
+  "email_rotulo": "davideliberto2001@gmail.com",
+  "status": "Aberto a projetos",
+  "chips": [
+    "Power BI",
+    "SQL",
+    "Python",
+    "BigQuery",
+    "Databricks",
+    "Airflow"
   ],
-  "pilares_titulo": "O que eu faço",
-  "pilares": [
-    {
-      "titulo": "Engenharia de dados",
-      "ferramentas": "BigQuery · Databricks · Airflow · SAP HANA"
-    },
-    {
-      "titulo": "Modelagem e BI",
-      "ferramentas": "Power BI · DAX · Power Query · Star Schema"
-    },
-    {
-      "titulo": "Automação",
-      "ferramentas": "Python · SQL · Git · GitHub Actions"
-    }
-  ],
-  "trabalhos_titulo": "Trabalhos",
-  "relatorios": [
+  "projetos": [
     {
       "titulo": "Dashboard de RH",
       "descricao": "Gestão de pessoas: turnover, absenteísmo e clima organizacional para decisões de RH.",
       "ferramenta": "Power BI",
-      "link": "https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9"
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9",
+      "tags": [
+        "Power BI",
+        "DAX",
+        "Power Query"
+      ]
     },
     {
       "titulo": "UI Power Pack",
       "descricao": "Interfaces premium para Power BI com HTML, CSS e JSON, focadas em UX.",
       "ferramenta": "Web",
-      "link": "https://visuals-powerbi.vercel.app/"
+      "link": "https://visuals-powerbi.vercel.app/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JSON"
+      ]
+    },
+    {
+      "titulo": "Jira + Databricks",
+      "descricao": "Pipeline end-to-end em PySpark com Delta Lake, Unity Catalog e Star Schema.",
+      "ferramenta": "Databricks",
+      "link": "https://github.com/DaviMark/projeto_jira_databricks",
+      "tags": [
+        "PySpark",
+        "Delta Lake",
+        "Unity Catalog"
+      ]
     },
     {
       "titulo": "Santander: Satisfação",
       "descricao": "Modelos de classificação para identificar padrões de satisfação e apoiar retenção.",
       "ferramenta": "Python",
-      "link": "https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb"
-    }
-  ],
-  "projetos": [
-    {
-      "titulo": "Jira + Databricks",
-      "descricao": "Pipeline end-to-end em PySpark com Delta Lake, Unity Catalog e Star Schema.",
-      "ferramenta": "Databricks",
-      "link": "https://github.com/DaviMark/projeto_jira_databricks"
+      "link": "https://nbviewer.org/github/DaviMark/santander-satisfaction/blob/main/SantanderCustomerSatisfaction.ipynb",
+      "tags": [
+        "Python",
+        "Scikit-learn",
+        "Pandas"
+      ]
     },
     {
       "titulo": "GitHub Lakehouse",
       "descricao": "Arquitetura medalhão (Bronze, Silver, Gold) consumindo dados de uma API REST.",
       "ferramenta": "Python",
-      "link": "https://github.com/DaviMark/projeto_github_lakehouse"
+      "link": "https://github.com/DaviMark/projeto_github_lakehouse",
+      "tags": [
+        "Python",
+        "API REST",
+        "Medalhão"
+      ]
     },
     {
       "titulo": "Consultas SQL",
       "descricao": "Queries otimizadas para automação de relatórios e bases relacionais.",
       "ferramenta": "SQL",
-      "link": "https://github.com/DaviMark/Consultas_SQL"
+      "link": "https://github.com/DaviMark/Consultas_SQL",
+      "tags": [
+        "SQL",
+        "Otimização"
+      ]
     }
   ],
-  "contato_titulo": "Contato",
+  "todos_repositorios": "https://github.com/DaviMark?tab=repositories",
+  "sobre": [
+    "7 anos de experiência em dados",
+    "Engenheiro Mecânico de formação",
+    "Pipelines, governança e BI",
+    "14 cursos e certificações em 2025"
+  ],
+  "construindo": {
+    "titulo": "Migração SAP → Google Cloud",
+    "texto": "Pipelines governados com Airflow, Git e CI/CD na UOL."
+  },
+  "tech": [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "SQL",
+    "Python",
+    "BigQuery",
+    "Databricks",
+    "Spark",
+    "Airflow",
+    "Git"
+  ],
+  "conectar_texto": "Aberto a novas oportunidades e projetos de dados.",
+  "certificacoes": 14,
+  "anos_experiencia": 7,
   "links": {
     "portfolio": "#",
     "linkedin": "https://www.linkedin.com/in/david-deliberto-marques/",

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="190" viewBox="0 0 310 190">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; }
+  .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+  .in { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; transform: none !important; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: sp 4s linear infinite; } @keyframes sp { to { transform: rotate(360deg); } }</style>
+<rect x="6" y="6" width="298" height="178" rx="14" fill="#0a0d0b" stroke="#1f2a23" stroke-width="1.2"/><path transform="translate(30 29) scale(1.0)" d="M9.5 2.5c2 0 4 0 4 0s0 2 0 4L8 12l-4-4zM4 8l-2 .5L3.5 6M8 12l-.5 2 2.5-1.5M10.5 5.5h.01" fill="none" stroke="#4ade80" stroke-width="1.40" stroke-linecap="round" stroke-linejoin="round"/><text x="54" y="42" font-size="15" font-weight="600" fill="#e8ede9">Construindo agora</text>
+<rect x="28" y="60" width="254" height="106" rx="10" fill="#0f1511" stroke="#1f2a23"/>
+<g class="spin"><path d="M56 78 l2.2 5.3 5.3 2.2 -5.3 2.2 -2.2 5.3 -2.2 -5.3 -5.3 -2.2 5.3 -2.2z" fill="#4ade80"/></g>
+<text x="76" y="90" font-size="14" font-weight="600" fill="#e8ede9">Migração SAP → Google Cloud</text>
+<text x="76" y="112" font-size="12.5" fill="#9aa39d"><tspan x="76" dy="0">Pipelines governados com</tspan><tspan x="76" dy="17">Airflow, Git e CI/CD na UOL.</tspan></text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="190" viewBox="0 0 310 190">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; }
+  .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+  .in { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; transform: none !important; } }
+</style>
+<rect x="6" y="6" width="298" height="178" rx="14" fill="#0a0d0b" stroke="#1f2a23" stroke-width="1.2"/><path transform="translate(30 29) scale(1.0)" d="M6.5 9.5l3-3M7 4.5l1-1a2.8 2.8 0 0 1 4 4l-1 1M9 11.5l-1 1a2.8 2.8 0 0 1-4-4l1-1" fill="none" stroke="#4ade80" stroke-width="1.40" stroke-linecap="round" stroke-linejoin="round"/><text x="54" y="42" font-size="15" font-weight="600" fill="#e8ede9">Vamos conversar</text>
+<text x="30" y="70" font-size="12.5" fill="#9aa39d"><tspan x="30" dy="0">Aberto a novas oportunidades e projetos</tspan><tspan x="30" dy="17">de dados.</tspan></text><rect x="30" y="126" width="36" height="36" rx="8" fill="#121815" stroke="#1f2a23"/><text x="48" y="149" text-anchor="middle" font-size="13" font-weight="700" fill="#e8ede9">in</text><rect x="76" y="126" width="36" height="36" rx="8" fill="#121815" stroke="#1f2a23"/><path transform="translate(86 136) scale(1.0)" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM1.5 8h13M8 1.5c2 2 2 11 0 13M8 1.5c-2 2-2 11 0 13" fill="none" stroke="#e8ede9" stroke-width="1.40" stroke-linecap="round" stroke-linejoin="round"/><rect x="122" y="126" width="36" height="36" rx="8" fill="#121815" stroke="#1f2a23"/><path transform="translate(132 136) scale(1.0)" d="M2 4h12v8H2zM2 4l6 5 6-5" fill="none" stroke="#e8ede9" stroke-width="1.40" stroke-linecap="round" stroke-linejoin="round"/><rect x="168" y="126" width="36" height="36" rx="8" fill="#121815" stroke="#1f2a23"/><text x="186" y="149" text-anchor="middle" font-size="13" font-weight="700" fill="#e8ede9">GH</text>
+</svg>

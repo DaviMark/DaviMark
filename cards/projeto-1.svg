@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="230" viewBox="0 0 380 230">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif; }
+  .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+  .in { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; transform: none !important; } }
+</style>
+<rect x="6" y="6" width="368" height="218" rx="14" fill="#0a0d0b" stroke="#1f2a23" stroke-width="1.2"/>
+<path transform="translate(30 29) scale(1.0)" d="M8 1.8l1.8 3.7 4 .6-2.9 2.8.7 4L8 11l-3.6 1.9.7-4L2.2 6.1l4-.6z" fill="none" stroke="#4ade80" stroke-width="1.40" stroke-linecap="round" stroke-linejoin="round"/><text x="54" y="42" font-size="15" font-weight="600" fill="#e8ede9">Projetos em destaque</text>
+<g class="in" style="animation-delay:0.00s">
+<rect x="30" y="66" width="120" height="142" rx="6" fill="#101512" stroke="#1f2a23"/><rect x="38" y="74" width="42" height="4" rx="2" fill="#2a332d"/><rect x="38.0" y="84" width="30.7" height="14" rx="2" fill="#18201b"/><rect x="72.7" y="84" width="30.7" height="14" rx="2" fill="#18201b"/><rect x="107.3" y="84" width="30.7" height="14" rx="2" fill="#18201b"/><rect x="39.0" y="162.4" width="10.0" height="37.6" rx="1" fill="#1d4d31"/><rect x="52.0" y="134.2" width="10.0" height="65.8" rx="1" fill="#1d4d31"/><rect x="65.0" y="153.0" width="10.0" height="47.0" rx="1" fill="#1d4d31"/><rect x="78.0" y="115.4" width="10.0" height="84.6" rx="1" fill="#1d4d31"/><rect x="91.0" y="143.6" width="10.0" height="56.4" rx="1" fill="#1d4d31"/><rect x="104.0" y="106.0" width="10.0" height="94.0" rx="1" fill="#22c55e"/><rect x="117.0" y="129.5" width="10.0" height="70.5" rx="1" fill="#1d4d31"/><rect x="130.0" y="120.1" width="10.0" height="79.9" rx="1" fill="#1d4d31"/>
+<text x="168" y="80" font-size="15.5" font-weight="600" fill="#e8ede9">Dashboard de RH</text>
+<text x="168" y="102" font-size="12.5" fill="#9aa39d"><tspan x="168" dy="0">Gestão de pessoas: turnover,</tspan><tspan x="168" dy="17">absenteísmo e clima</tspan><tspan x="168" dy="17">organizacional para decisões…</tspan></text>
+<rect x="168" y="182" width="66" height="20" rx="5" fill="#121815" stroke="#1f2a23"/><text x="176" y="196" font-size="11" fill="#9aa39d">Power BI</text><rect x="239.6" y="182" width="35" height="20" rx="5" fill="#121815" stroke="#1f2a23"/><text x="247.6" y="196" font-size="11" fill="#9aa39d">DAX</text>
+</g>
+</svg>

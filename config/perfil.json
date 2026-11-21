@@ -1,50 +1,28 @@
 {
   "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz os cards e o README.md sozinho. Para adicionar um relatório ou projeto, copie um bloco { ... } da lista e troque os textos e o link.",
-  "eyebrow": "Analytics Engineer · UOL",
-  "saudacao": "Olá, eu sou o David.",
-  "manchete": "Transformo dados em",
-  "palavras": [
-    "decisões.",
-    "estratégia.",
-    "clareza.",
-    "resultado."
+  "nome": "David Marques",
+  "cargo": "Analytics Engineer · UOL",
+  "resumo": [
+    "Engenharia de dados e Power BI",
+    "7 anos de experiência",
+    "Jacareí, SP"
   ],
-  "apresentacao": [
-    "Sou Analytics Engineer com 7 anos de experiência em dados. Atualmente conduzo, na UOL, a transição dos dados do SAP S/4HANA para o Google Cloud, com pipelines governados, versionados e totalmente automatizados.",
-    "Minha formação é em Engenharia Mecânica, e foi na indústria que aprendi a enxergar processos. Hoje uno a robustez da engenharia à inteligência de negócio para entregar dados confiáveis a quem precisa decidir."
-  ],
-  "local": "Jacareí, SP",
-  "pilares_titulo": "O que eu faço.",
+  "pilares_titulo": "O que eu faço",
   "pilares": [
     {
       "titulo": "Engenharia de dados",
-      "texto": "Desenho pipelines ETL/ELT no BigQuery e no Databricks, integrando SAP HANA, Oracle, SQL Server e APIs, com orquestração no Airflow e CI/CD."
+      "ferramentas": "BigQuery · Databricks · Airflow · SAP HANA"
     },
     {
       "titulo": "Modelagem e BI",
-      "texto": "Construo modelos semânticos em Power BI com Star Schema, DAX e Power Query, otimizados para performance e protegidos com segurança em nível de linha."
+      "ferramentas": "Power BI · DAX · Power Query · Star Schema"
     },
     {
-      "titulo": "Produtos de dados",
-      "texto": "Traduzo necessidades do negócio em relatórios claros, com foco em experiência do usuário e narrativa, para que a diretoria decida com segurança."
+      "titulo": "Automação",
+      "ferramentas": "Python · SQL · Git · GitHub Actions"
     }
   ],
-  "tech_stack": [
-    "Power BI",
-    "DAX",
-    "Power Query",
-    "SQL",
-    "Python",
-    "BigQuery",
-    "Databricks",
-    "Apache Spark",
-    "Airflow",
-    "SAP HANA",
-    "Git",
-    "GitHub Actions"
-  ],
-  "trabalhos_titulo": "Trabalhos.",
-  "trabalhos_subtitulo": "Relatórios e projetos selecionados.",
+  "trabalhos_titulo": "Trabalhos",
   "relatorios": [
     {
       "titulo": "Dashboard de RH",
@@ -85,8 +63,7 @@
       "link": "https://github.com/DaviMark/Consultas_SQL"
     }
   ],
-  "contato_titulo": "Contato.",
-  "contato_texto": "Estou disponível para conversar sobre projetos de dados, BI e engenharia de dados.",
+  "contato_titulo": "Contato",
   "links": {
     "portfolio": "#",
     "linkedin": "https://www.linkedin.com/in/david-deliberto-marques/",

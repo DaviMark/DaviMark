@@ -41,6 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A cards README.md data
+          git add -A cards README.md data assets
           git diff --cached --quiet || git commit -m "chore: atualizar perfil [skip ci]"
           git push

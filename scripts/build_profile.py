@@ -34,7 +34,44 @@ LEVELS = ["#151c17", "#14532d", "#166534", "#16a34a", "#4ade80"]
 MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 M = 6  # margem de cada peça (vira o espaço entre os cards)
 
-TOOLS = {  # cor, cor do texto, sigla
+D = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/"
+ICON_URLS = {  # logotipos oficiais, baixados uma vez e guardados em assets/icons
+    "Power BI": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
+    "SQL Server": D + "microsoftsqlserver/microsoftsqlserver-original.svg",
+    "Python": D + "python/python-original.svg",
+    "BigQuery": "https://cdn.simpleicons.org/googlebigquery",
+    "Databricks": "https://cdn.simpleicons.org/databricks",
+    "Spark": D + "apachespark/apachespark-original.svg",
+    "Airflow": D + "apacheairflow/apacheairflow-original.svg",
+    "Google Cloud": D + "googlecloud/googlecloud-original.svg",
+    "Git": D + "git/git-original.svg",
+    "GitHub Actions": D + "githubactions/githubactions-original.svg",
+    "PostgreSQL": D + "postgresql/postgresql-original.svg",
+    "SAP HANA": "https://cdn.simpleicons.org/sap",
+}
+_ICON_CACHE: dict[str, str | None] = {}
+
+
+def logo(name: str) -> str | None:
+    """data URI do logotipo da ferramenta (ou None, se não houver)."""
+    if name in _ICON_CACHE:
+        return _ICON_CACHE[name]
+    slug = name.lower().replace(" ", "-")
+    path = ROOT / "assets" / "icons" / f"{slug}.svg"
+    if not path.exists() and name in ICON_URLS:
+        try:
+            req = urllib.request.Request(ICON_URLS[name], headers={"User-Agent": "profile-builder"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(r.read())
+        except Exception as e:
+            print("ícone indisponível:", name, e)
+    uri = f"data:image/svg+xml;base64,{base64.b64encode(path.read_bytes()).decode()}" if path.exists() else None
+    _ICON_CACHE[name] = uri
+    return uri
+
+
+TOOLS = {  # reserva quando não há logotipo: cor, cor do texto, sigla
     "Power BI": ("#F2C811", "#1a1a1a", "BI"), "DAX": ("#00897B", "#fff", "DAX"),
     "Power Query": ("#D13348", "#fff", "PQ"), "SQL": ("#336791", "#fff", "SQL"),
     "Python": ("#3776AB", "#FFD43B", "Py"), "BigQuery": ("#4285F4", "#fff", "BQ"),
@@ -91,6 +128,11 @@ def card(w: float, h: float) -> str:
 
 
 def tool_icon(x, y, s, name) -> str:
+    uri = logo(name)
+    if uri:
+        pad = s * .2
+        return (f'<rect x="{x:.1f}" y="{y:.1f}" width="{s}" height="{s}" rx="{s*.24:.1f}" fill="{CHIP}" stroke="{EDGE}"/>'
+                f'<image href="{uri}" x="{x+pad:.1f}" y="{y+pad:.1f}" width="{s-2*pad:.1f}" height="{s-2*pad:.1f}"/>')
     bg, fg, label = TOOLS.get(name, ("#2a2f2c", TEXT, name[:2]))
     fs = s * (0.42 if len(label) <= 2 else 0.32)
     return (f'<rect x="{x:.1f}" y="{y:.1f}" width="{s}" height="{s}" rx="{s*.24:.1f}" fill="{bg}"/>'
@@ -163,8 +205,10 @@ def profile(photo: str | None) -> str:
     for c in CFG["chips"]:
         cw = 40 + len(c) * 7
         bg, fg, _ = TOOLS.get(c, (TER, TEXT, ""))
-        chips.append(f'<rect x="{x}" y="220" width="{cw:.0f}" height="30" rx="7" fill="{CHIP}" stroke="{EDGE}"/>'
-                     f'<rect x="{x+10}" y="229" width="12" height="12" rx="3" fill="{bg}"/>'
+        uri = logo(c)
+        mark = (f'<image href="{uri}" x="{x+9}" y="228" width="14" height="14"/>' if uri
+                else f'<rect x="{x+10}" y="229" width="12" height="12" rx="3" fill="{bg}"/>')
+        chips.append(f'<rect x="{x}" y="220" width="{cw:.0f}" height="30" rx="7" fill="{CHIP}" stroke="{EDGE}"/>' + mark +
                      f'<text x="{x+29}" y="240" font-size="12.5" fill="{TEXT}">{esc(c)}</text>')
         x += cw + 8
     nx = 176
@@ -267,19 +311,6 @@ def about(h) -> str:
     return svg(w, h, f'{card(w, h)}{title(30, 42, "user", "Sobre mim")}<g class="in">{items}</g>')
 
 
-def building(h) -> str:
-    w = 310
-    b = CFG["construindo"]
-    lines = wrap(b["texto"], 190, 12.5, 3)
-    body = f"""{card(w, h)}{title(30, 42, "rocket", "Construindo agora")}
-<rect x="28" y="60" width="{w-56}" height="{h-84}" rx="10" fill="#0f1511" stroke="{EDGE}"/>
-<g class="spin"><path d="M56 78 l2.2 5.3 5.3 2.2 -5.3 2.2 -2.2 5.3 -2.2 -5.3 -5.3 -2.2 5.3 -2.2z" fill="{GREEN}"/></g>
-<text x="76" y="90" font-size="14" font-weight="600" fill="{TEXT}">{esc(b['titulo'])}</text>
-<text x="76" y="112" font-size="12.5" fill="{SUB}">{tspans(lines, 76, 17)}</text>"""
-    css = ".spin { transform-box: fill-box; transform-origin: center; animation: sp 4s linear infinite; } @keyframes sp { to { transform: rotate(360deg); } }"
-    return svg(w, h, body, css)
-
-
 def tech(h) -> str:
     w = 310
     items = CFG["tech"][:10]
@@ -302,15 +333,14 @@ def stats(h, gh, total) -> str:
     return svg(w, h, f'{card(w, h)}{title(30, 42, "chart", "Estatísticas do GitHub")}<g class="in">{out}</g>')
 
 
-def commits_chart(h, months) -> str:
-    w = 310
+def commits_chart(h, months, w=310) -> str:
     x0, x1, y0, y1 = 34, w - 30, 64, h - 44
     mx = max(c for _, c in months) or 1
     pts = [(x0 + i * (x1 - x0) / (len(months) - 1), y1 - (c / mx) * (y1 - y0)) for i, (_, c) in enumerate(months)]
     line = " ".join(f"{a:.1f},{b:.1f}" for a, b in pts)
     dots = "".join(f'<circle cx="{a:.1f}" cy="{b:.1f}" r="2.2" fill="{GREEN}"/>' for a, b in pts)
     labels = "".join(f'<text x="{a:.1f}" y="{h-22}" text-anchor="middle" font-size="10.5" fill="{TER}">{MESES[m.month-1][:3]}</text>'
-                     for (a, _), (m, _) in zip(pts, months) if m.month % 2 == months[-1][0].month % 2)
+                     for (a, _), (m, _) in zip(pts, months) if w > 400 or m.month % 2 == months[-1][0].month % 2)
     body = f"""{card(w, h)}
 <text x="30" y="42" font-size="13.5" fill="{SUB}">Contribuições por mês</text>
 <polyline points="{line}" pathLength="1" fill="none" stroke="{GREEN_D}" stroke-width="2" stroke-linejoin="round" class="draw"/>
@@ -338,18 +368,11 @@ def connect(h) -> str:
 # ---------------------------------------------------------------- rodapé
 def terminal() -> str:
     w, h = 1000, 110
-    cmd = "ls ~/projetos"
     body = f"""{card(w, h)}
-<text x="40" y="62" class="mono" font-size="16" fill="{GREEN}">$</text>
-<text x="62" y="62" class="mono" font-size="16" fill="{TEXT}" textLength="{len(cmd)*9.6:.0f}" lengthAdjust="spacingAndGlyphs">{esc(cmd)}</text>
-<text x="{62 + len(cmd)*9.6 + 24:.0f}" y="62" class="mono" font-size="16" fill="{SUB}"># ver todos os repositórios →</text>
-<rect class="cur" x="{62 + len(cmd)*9.6 + 6:.0f}" y="48" width="9" height="18" fill="{GREEN}"/>
-<line x1="560" y1="56" x2="760" y2="56" stroke="{EDGE}" stroke-dasharray="3 5"/>
 <g transform="translate(800 18)" fill="none" stroke="{GREEN_D}" stroke-width="1.2" opacity=".8">
 <path d="M18 4 h120 l-12 56 h-120 z"/><path d="M-4 62 h136 l-8 10 h-136 z"/>
 <path d="M30 22 l8 6 -9 6" /><path d="M44 36 h12"/></g>"""
-    css = ".cur { animation: b 1.1s steps(1) infinite; } @keyframes b { 50% { opacity: 0; } }"
-    return svg(w, h, body, css)
+    return svg(w, h, body)
 
 
 # ---------------------------------------------------------------- README
@@ -387,10 +410,9 @@ def main() -> None:
     for i, p in enumerate(projs):
         put(f"projeto-{i+1}.svg", project(p, i, i == 0, H[i]))
     put("sobre.svg", about(H[0]))
-    put("construindo.svg", building(H[1]))
     put("ferramentas.svg", tech(H[2]))
     put("estatisticas.svg", stats(H[0], gh, total))
-    put("grafico.svg", commits_chart(H[1], months))
+    put("grafico.svg", commits_chart(H[1], months, 620))
     put("conectar.svg", connect(H[2]))
     put("terminal.svg", terminal())
 
@@ -399,8 +421,7 @@ def main() -> None:
         + img("sobre.svg", "31%", "Sobre mim: " + "; ".join(CFG["sobre"]))
         + img("estatisticas.svg", "31%", "Estatísticas do GitHub"),
         img("projeto-2.svg", "38%", f"{projs[1]['titulo']}: {projs[1]['descricao']}", projs[1]["link"])
-        + img("construindo.svg", "31%", f"Construindo agora: {CFG['construindo']['titulo']}")
-        + img("grafico.svg", "31%", "Contribuições por mês"),
+        + img("grafico.svg", "62%", "Contribuições por mês"),
         img("projeto-3.svg", "38%", f"{projs[2]['titulo']}: {projs[2]['descricao']}", projs[2]["link"])
         + img("ferramentas.svg", "31%", "Ferramentas: " + ", ".join(CFG["tech"]))
         + img("conectar.svg", "31%", "Vamos conversar", L.get("linkedin")),
@@ -410,7 +431,7 @@ edite config/perfil.json: o GitHub Action refaz tudo sozinho. Mantenha as imagen
 <div align="center">
 {img("perfil.svg", "62%", f"{CFG['nome']}, {CFG['cargo']}. {CFG['bio']}", L.get("linkedin"))}{img("contribuicoes.svg", "38%", f"{num(total)} contribuições no último ano")}<br>
 {'<br>'.join(rows)}<br>
-{img("terminal.svg", "100%", "Ver todos os repositórios", CFG["todos_repositorios"])}
+{img("terminal.svg", "100%", "Notebook")}
 </div>
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")

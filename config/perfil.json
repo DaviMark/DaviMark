@@ -2,7 +2,7 @@
   "_como_usar": "Edite este arquivo e faça commit. O GitHub Action refaz o README sozinho. Os 3 primeiros itens de 'projetos' aparecem em destaque; a ordem importa.",
   "nome": "David Marques",
   "cargo": "Analytics Engineer",
-  "bio": "Engenharia de dados e Power BI na UOL, da migração SAP S/4HANA ao Google Cloud.",
+  "bio": "Engenharia de dados e Power BI na UOL, da migração SAP HANA ao GCP.",
   "mostrar_foto": true,
   "local": "Jacareí, SP",
   "site_rotulo": "LinkedIn",
@@ -10,7 +10,7 @@
   "status": "Aberto a projetos",
   "chips": [
     "Power BI",
-    "SQL",
+    "SQL Server",
     "Python",
     "BigQuery",
     "Databricks",
@@ -18,14 +18,14 @@
   ],
   "projetos": [
     {
-      "titulo": "Dashboard de RH",
-      "descricao": "Gestão de pessoas: turnover, absenteísmo e clima organizacional para decisões de RH.",
+      "titulo": "Power BI Architect",
+      "descricao": "Skill que faz agentes de IA projetarem como um desenvolvedor Power BI sênior: star schema, DAX e visuais.",
       "ferramenta": "Power BI",
-      "link": "https://app.powerbi.com/view?r=eyJrIjoiZjU1YjMxODQtNjg0Mi00ZTU0LThmNTEtODllZjI5YjQ5MDE4IiwidCI6ImI5NGI1ZDk3LTQzNDgtNGE5MS05NmU0LThkMzc4NTMwYjYxOCJ9",
+      "link": "https://github.com/DaviMark/powerbi-architect",
       "tags": [
-        "Power BI",
+        "Agent Skills",
         "DAX",
-        "Power Query"
+        "pbiviz"
       ]
     },
     {
@@ -90,21 +90,17 @@
     "Pipelines, governança e BI",
     "14 cursos e certificações em 2025"
   ],
-  "construindo": {
-    "titulo": "Migração SAP → Google Cloud",
-    "texto": "Pipelines governados com Airflow, Git e CI/CD na UOL."
-  },
   "tech": [
     "Power BI",
-    "DAX",
-    "Power Query",
-    "SQL",
+    "SQL Server",
     "Python",
     "BigQuery",
     "Databricks",
     "Spark",
     "Airflow",
-    "Git"
+    "Google Cloud",
+    "Git",
+    "GitHub Actions"
   ],
   "conectar_texto": "Aberto a novas oportunidades e projetos de dados.",
   "certificacoes": 14,
